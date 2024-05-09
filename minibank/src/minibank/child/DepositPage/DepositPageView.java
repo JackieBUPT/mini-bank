@@ -1,12 +1,12 @@
 package minibank.child.DepositPage;
 
 
-import minibank.util.OpenNewWindow;
+import minibank.child.OpenNewWindow.OpenNewWindow;
 
 import javax.swing.*;
 import java.awt.*;
 
-import static minibank.util.Dialog.showDepositDialog;
+import static minibank.child.Dialog.showDepositDialog;
 
 
 public class DepositPageView extends JFrame {

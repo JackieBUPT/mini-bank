@@ -1,6 +1,6 @@
 package minibank.child.MovementPage;
 
-import minibank.util.OpenNewWindow;
+import minibank.child.OpenNewWindow.OpenNewWindow;
 
 import javax.swing.*;
 import java.awt.*;

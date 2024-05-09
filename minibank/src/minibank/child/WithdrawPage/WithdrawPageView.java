@@ -1,11 +1,11 @@
 package minibank.child.WithdrawPage;
 
-import minibank.util.OpenNewWindow;
+import minibank.child.OpenNewWindow.OpenNewWindow;
 
 import javax.swing.*;
 import java.awt.*;
 
-import static minibank.util.Dialog.showDepositDialog;
+import static minibank.child.Dialog.showDepositDialog;
 
 public class WithdrawPageView extends JFrame {
     private JTextField inputTextField;
@@ -143,7 +143,7 @@ public class WithdrawPageView extends JFrame {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(600, 400);
             frame.setLocationRelativeTo(null);
-            showDepositDialog(frame,name,"withdraw");
+            showDepositDialog(frame,name,"deposit");
             frame.setVisible(false);
         });
     }
