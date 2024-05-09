@@ -1,0 +1,10 @@
+使用说明：将包放到src/minibank的子级(与child同级)，在包中找到名为Gson的jar文件并右键点击添加到库
+函数说明：以_Date结尾的类为数据类分别为
+            childAccount_Date孩子账户数据
+            operationRecord_Date操作记录数据
+            taskList_Date任务数据
+            其中包含对应数据种类的变量，需熟悉其中的变量。
+        功能类只需关注jsonFunctions：
+            静态成员变量:nowAccountDate为当前登录账户的数据类，可通过其获得当前账户的数据信息,如果点击家长模式不会修改其值(初始为null)
+            在输入账户的账号密码并点击登录后应执行其中的changeNowAccount和calculateCurrentMoneyRate实现当前账户数据变量修改和利率计算
+            创建的json数据将存储在src/resources/date文件夹下

@@ -1,7 +1,7 @@
 package minibank.child.MainPage;
 
 
-import minibank.util.OpenNewWindow;
+import minibank.child.OpenNewWindow.OpenNewWindow;
 
 
 import javax.swing.*;
